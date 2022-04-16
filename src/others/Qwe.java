@@ -1,4 +1,4 @@
-import java.util.Objects;
+package others;
 
 public class Qwe {
 
@@ -42,7 +42,7 @@ public class Qwe {
 
     @Override
     public String toString() {
-        return "Qwe{" +
+        return "ss.Qwe{" +
                 "name='" + name + '\'' +
                 ", items=" + items +
                 '}';
