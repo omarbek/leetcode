@@ -1,4 +1,4 @@
-package hackerrank;
+package interview.hackerrank;
 
 import java.util.Arrays;
 import java.util.List;
@@ -14,7 +14,7 @@ public class Four {
             if(i%2==1){
                 stack.push(i);
             }else{
-                Integer old = (Integer) stack.pop();
+                old = (Integer) stack.pop();
                 if(old>i){
                     stack.push(i);
                 }

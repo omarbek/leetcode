@@ -1,4 +1,4 @@
-package others;
+package interview;
 
 import java.util.Random;
 
