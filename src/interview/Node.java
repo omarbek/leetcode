@@ -1,4 +1,4 @@
-package others;
+package interview;
 
 public class Node {
 
