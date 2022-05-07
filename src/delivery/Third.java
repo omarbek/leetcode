@@ -8,7 +8,7 @@ import java.util.Arrays;
  * @project leetcode
  */
 public class Third {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//
         Arrays.stream(new Third().solution(1, 1)).forEach(System.out::println);
     }
 
