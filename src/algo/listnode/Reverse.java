@@ -8,7 +8,7 @@ public class Reverse {
         llist.next.next.next = new SinglyLinkedListNode(4);
         llist.next.next.next.next = new SinglyLinkedListNode(5);
 
-        SinglyLinkedListNode head = reverse(llist);
+        SinglyLinkedListNode head = reverseList(llist);
 
         System.out.println(head.data);
         System.out.println(head.next.data);
@@ -17,17 +17,37 @@ public class Reverse {
         System.out.println(head.next.next.next.next.data);
     }
 
-    public static SinglyLinkedListNode reverse(SinglyLinkedListNode llist) {
-        if (llist == null) {
-            return null;
+//    static SinglyLinkedListNode ret;
+//    static SinglyLinkedListNode temp;
+//
+//    public static SinglyLinkedListNode reverse(SinglyLinkedListNode llist) {
+//        if (llist == null) {
+//            return null;
+//        }
+//        setData(llist);
+//        return temp;
+//    }
+//
+//    private static void setData(SinglyLinkedListNode llist) {
+//        if (llist.next == null) {
+//            ret = llist;
+//            temp = ret;
+//        } else {
+//            setData(llist.next);
+//            llist.next = null;
+//            ret.next = llist;
+//            ret = ret.next;
+//        }
+//    }
+
+    public static SinglyLinkedListNode reverseList(SinglyLinkedListNode head) {
+        SinglyLinkedListNode newHead = null;
+        while (head != null) {
+            SinglyLinkedListNode next = head.next;
+            head.next = newHead;
+            newHead = head;
+            head = next;
         }
-        SinglyLinkedListNode temp = null;
-        while (llist != null) {
-            SinglyLinkedListNode next = llist.next;
-            llist.next = temp;
-            temp = llist;
-            llist = next;
-        }
-        return temp;
+        return newHead;
     }
 }
