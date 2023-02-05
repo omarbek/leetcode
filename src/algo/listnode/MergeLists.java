@@ -1,5 +1,7 @@
 package algo.listnode;
 
+import algo.listnode.SinglyLinkedListNode;
+
 public class MergeLists {
 
     public static void main(String[] args) {
@@ -19,7 +21,7 @@ public class MergeLists {
         System.out.println(head.next.next.next.next.data);
     }
 
-    static SinglyLinkedListNode mergeLists(SinglyLinkedListNode head1, SinglyLinkedListNode head2) {//3
+    static SinglyLinkedListNode mergeLists(SinglyLinkedListNode head1, SinglyLinkedListNode head2) {//3-task
         if (head1 == null) {
             return head2;
         }

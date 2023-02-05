@@ -1,5 +1,7 @@
 package algo.listnode;
 
+import algo.listnode.SinglyLinkedListNode;
+
 public class GetNode {
 
     public static void main(String[] args) {
@@ -13,7 +15,7 @@ public class GetNode {
     }
 
 
-    public static int getNode(SinglyLinkedListNode llist, int positionFromTail) {
+    public static int getNode(SinglyLinkedListNode llist, int positionFromTail) {//4-task
         SinglyLinkedListNode runner = llist;
         SinglyLinkedListNode curr = llist;
 

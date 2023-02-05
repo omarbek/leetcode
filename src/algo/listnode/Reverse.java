@@ -40,7 +40,7 @@ public class Reverse {
 //        }
 //    }
 
-    public static SinglyLinkedListNode reverseList(SinglyLinkedListNode head) {
+    public static SinglyLinkedListNode reverseList(SinglyLinkedListNode head) {//1-task
         SinglyLinkedListNode newHead = null;
         while (head != null) {
             SinglyLinkedListNode next = head.next;

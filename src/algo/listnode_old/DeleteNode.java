@@ -1,4 +1,5 @@
-package algo.listnode;
+package algo.listnode_old;
+
 
 public class DeleteNode {
     public static void main(String[] args) {
@@ -22,18 +23,18 @@ public class DeleteNode {
     }
 
     public static SinglyLinkedListNode deleteNode(SinglyLinkedListNode llist, int position) {
-        if(llist==null){
+        if (llist == null) {
             return null;
         }
-        if(position==0){
+        if (position == 0) {
             return llist.next;
         }
-        SinglyLinkedListNode temp=llist;
-        while((position-1)!=0){
-            temp=temp.next;
+        SinglyLinkedListNode temp = llist;
+        while ((position - 1) != 0) {
+            temp = temp.next;
             position--;
         }
-        temp.next=temp.next.next;
+        temp.next = temp.next.next;
         return llist;
     }
 }

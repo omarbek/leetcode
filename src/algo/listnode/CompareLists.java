@@ -1,5 +1,7 @@
 package algo.listnode;
 
+import algo.listnode.SinglyLinkedListNode;
+
 public class CompareLists {
 
     public static void main(String[] args) {
@@ -15,7 +17,7 @@ public class CompareLists {
         System.out.println(compareLists(head1, head2));
     }
 
-//    static boolean compareLists(SinglyLinkedListNode head1, SinglyLinkedListNode head2) {//2
+//    static boolean compareLists(SinglyLinkedListNode head1, SinglyLinkedListNode head2) {//2-task
 //        while (head1 != null && head2 != null && head1.data == head2.data) {
 //            head1 = head1.next;
 //            head2 = head2.next;

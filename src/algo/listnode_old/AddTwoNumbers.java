@@ -1,4 +1,4 @@
-package algo.listnode;
+package algo.listnode_old;
 
 import yandex.ListNode;
 

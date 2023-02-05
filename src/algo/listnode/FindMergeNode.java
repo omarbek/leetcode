@@ -1,5 +1,7 @@
 package algo.listnode;
 
+import algo.listnode.SinglyLinkedListNode;
+
 public class FindMergeNode {
 
     public static void main(String[] args) {
@@ -31,7 +33,7 @@ public class FindMergeNode {
         System.out.println(findMergeNode(llist, llist2));
     }
 
-    static int findMergeNode(SinglyLinkedListNode headA, SinglyLinkedListNode headB) {
+    static int findMergeNode(SinglyLinkedListNode headA, SinglyLinkedListNode headB) {//6-task
         SinglyLinkedListNode currentA = headA;
         SinglyLinkedListNode currentB = headB;
 

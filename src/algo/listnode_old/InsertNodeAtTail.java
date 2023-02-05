@@ -1,4 +1,5 @@
-package algo.listnode;
+package algo.listnode_old;
+
 
 public class InsertNodeAtTail {
 

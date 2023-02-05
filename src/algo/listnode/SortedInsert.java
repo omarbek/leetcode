@@ -1,5 +1,7 @@
 package algo.listnode;
 
+import algo.listnode.DoublyLinkedListNode;
+
 public class SortedInsert {
     public static void main(String[] args) {
         DoublyLinkedListNode llist = new DoublyLinkedListNode(1);
@@ -59,7 +61,7 @@ public class SortedInsert {
 //        return head;
 //    }
 
-    public static DoublyLinkedListNode sortedInsert(DoublyLinkedListNode head, int data) {
+    public static DoublyLinkedListNode sortedInsert(DoublyLinkedListNode head, int data) {//7-task
         DoublyLinkedListNode node=new DoublyLinkedListNode(data);
         if(head==null){
             return node;

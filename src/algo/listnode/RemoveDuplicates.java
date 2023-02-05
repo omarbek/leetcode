@@ -1,5 +1,7 @@
 package algo.listnode;
 
+import algo.listnode.SinglyLinkedListNode;
+
 public class RemoveDuplicates {
 
     public static void main(String[] args) {
@@ -16,7 +18,7 @@ public class RemoveDuplicates {
         System.out.println(head.next.next.data);
     }
 
-    public static SinglyLinkedListNode removeDuplicates(SinglyLinkedListNode llist) {
+    public static SinglyLinkedListNode removeDuplicates(SinglyLinkedListNode llist) {//5-task
         if (llist == null) {
             return null;
         }
