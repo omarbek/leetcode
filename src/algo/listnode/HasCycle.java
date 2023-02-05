@@ -10,7 +10,7 @@ public class HasCycle {
         System.out.println(hasCycle(llist));
     }
 
-    static boolean hasCycle(SinglyLinkedListNode head) {
+    static boolean hasCycle(SinglyLinkedListNode head) {//9-task
         if (head == null) {
             return false;
         }
