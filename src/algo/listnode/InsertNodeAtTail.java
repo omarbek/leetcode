@@ -1,5 +1,4 @@
-package algo.listnode_old;
-
+package algo.listnode;
 
 public class InsertNodeAtTail {
 
@@ -18,15 +17,12 @@ public class InsertNodeAtTail {
         System.out.println(head.next.next.next.next.data);
     }
 
-    static SinglyLinkedListNode insertNodeAtTail(SinglyLinkedListNode head, int data) {
+    static SinglyLinkedListNode insertNodeAtTail(SinglyLinkedListNode head, int data) {//15-task
+        SinglyLinkedListNode node = new SinglyLinkedListNode(data);
         if (head == null) {
-            return new SinglyLinkedListNode(data);
+            return node;
         }
-        SinglyLinkedListNode temp = head;
-        while (temp.next != null) {
-            temp = temp.next;
-        }
-        temp.next = new SinglyLinkedListNode(data);
+        head.next = insertNodeAtTail(head.next, data);
         return head;
     }
 }

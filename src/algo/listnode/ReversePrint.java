@@ -1,5 +1,4 @@
-package algo.listnode_old;
-
+package algo.listnode;
 
 public class ReversePrint {
     public static void main(String[] args) {
@@ -11,7 +10,7 @@ public class ReversePrint {
         reversePrint(llist);
     }
 
-    public static void reversePrint(SinglyLinkedListNode llist) {
+    public static void reversePrint(SinglyLinkedListNode llist) {//12-task
         if (llist != null) {
             reversePrint(llist.next);
             System.out.println(llist.data);

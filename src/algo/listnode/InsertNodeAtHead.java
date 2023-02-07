@@ -1,4 +1,4 @@
-package algo.listnode_old;
+package algo.listnode;
 
 
 public class InsertNodeAtHead {
@@ -17,12 +17,12 @@ public class InsertNodeAtHead {
         System.out.println(head.next.next.next.next.data);
     }
 
-    static SinglyLinkedListNode insertNodeAtHead(SinglyLinkedListNode llist, int data) {
+    static SinglyLinkedListNode insertNodeAtHead(SinglyLinkedListNode llist, int data) {//13-task
+        SinglyLinkedListNode ret = new SinglyLinkedListNode(data);
         if (llist == null) {
-            return new SinglyLinkedListNode(data);
+            return ret;
         }
-        SinglyLinkedListNode node=new SinglyLinkedListNode(data);
-        node.next=llist;
-        return node;
+        ret.next = llist;
+        return ret;
     }
 }
