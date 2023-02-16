@@ -1,4 +1,4 @@
-package delivery;
+package companies.delivery;
 
 import java.util.Arrays;
 

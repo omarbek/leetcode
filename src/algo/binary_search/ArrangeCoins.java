@@ -6,20 +6,20 @@ public class ArrangeCoins {
     }
 
     public int arrangeCoins(int n) {
-        int left=1;
-        int right=n/2;
-        while(left<=right){
-            int mid=left+(right-left)/2;
-            int coinsFilled=mid*(mid+1)/2;
-            if(coinsFilled==n){
-                return mid;
+        long left = 0;
+        long right = n;
+        while (left <= right) {
+            long k = left + (right - left) / 2;
+            long curr = k * (k + 1) / 2;
+            if (n == curr) {
+                return (int) k;
             }
-            if(coinsFilled>n){
-                right=mid-1;
-            }else{
-                left=mid+1;
+            if (n < curr) {
+                right = k - 1;
+            } else {
+                left = k + 1;
             }
         }
-        return right;
+        return (int) right;
     }
 }

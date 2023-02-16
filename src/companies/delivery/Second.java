@@ -1,4 +1,4 @@
-package delivery;
+package companies.delivery;
 
 /**
  * @author omarbekdinasil

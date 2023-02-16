@@ -1,4 +1,4 @@
-package yandex;
+package companies.yandex;
 
 import java.util.List;
 

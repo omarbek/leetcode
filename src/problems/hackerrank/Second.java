@@ -1,4 +1,4 @@
-package interview.hackerrank;
+package problems.hackerrank;
 
 import java.io.BufferedReader;
 import java.io.IOException;

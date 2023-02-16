@@ -1,4 +1,4 @@
-package interview.hackerrank;
+package problems.hackerrank;
 
 import java.io.*;
 import java.util.ArrayList;
