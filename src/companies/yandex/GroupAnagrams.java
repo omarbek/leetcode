@@ -11,7 +11,8 @@ import java.util.*;
 public class GroupAnagrams {
 
     public static void main(String[] args) {
-        String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
+//        String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
+        String[] strs = {"aa", "aa", "odg", "dog", "gdo"};
         new GroupAnagrams().groupAnagrams(strs).forEach(q -> {
             q.forEach(System.out::println);
             System.out.println();
