@@ -1,4 +1,4 @@
-package test;
+package companies.reasunta;
 
 public class Reas {
     public static void main(String[] args) {

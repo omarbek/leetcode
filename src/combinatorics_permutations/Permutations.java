@@ -1,4 +1,4 @@
-package test;
+package combinatorics_permutations;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,7 +6,7 @@ import java.util.List;
 
 import static java.util.Collections.swap;
 
-public class Combinatorics {
+public class Permutations {
     public static void main(String[] args) {
         generatePermutations(Arrays.asList(1, 2, 3))
                 .forEach(q -> {

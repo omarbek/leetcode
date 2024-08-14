@@ -1,7 +1,5 @@
 package algo.listnode;
 
-import algo.listnode.SinglyLinkedListNode;
-
 public class CompareLists {
 
     public static void main(String[] args) {

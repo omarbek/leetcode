@@ -1,8 +1,8 @@
-package test;
+package companies.uzb;
 
 public class Main {
     public static void main(String[] args) {
-//        fib(15)
+//          fib(15)
 //        0 1 1 2 3 5 8 13
 //        new Main().fib(15);
         new Main().function(15);
