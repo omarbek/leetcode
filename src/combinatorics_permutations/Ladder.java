@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Ladder {
     public static void main(String[] args) {
-        new Ladder().ladder(4).forEach(System.out::println);
+        new Ladder().ladder(6).forEach(System.out::println);
     }
 
     //4
