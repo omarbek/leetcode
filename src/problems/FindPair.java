@@ -1,12 +1,12 @@
-package test;
+package problems;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main3 {
+public class FindPair {
     public static void main(String[] args) {
         int[] arr = {-1, 10, 1, -2, 2, 0, 0};//-1,1,-2,2
-        new Main3().invoke(arr).forEach(System.out::println);
+        new FindPair().invoke(arr).forEach(System.out::println);
     }
 
     private List<List<Integer>> invoke(int[] arr) {
