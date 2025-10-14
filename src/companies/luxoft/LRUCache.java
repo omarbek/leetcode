@@ -1,4 +1,4 @@
-package companies.reasunta;
+package companies.luxoft;
 
 import java.util.HashSet;
 import java.util.Set;
